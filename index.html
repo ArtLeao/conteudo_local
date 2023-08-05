@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iframe</title>
+    <style>
+        iframe{
+            border: 2px solid black;
+            display: block;
+            width: 600px;
+            height: 350px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exibindo uma página de acordo com o link clicado</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum magni quas exercitationem eos, quasi quisquam iste eaque animi error nesciunt, ex sequi incidunt, accusamus in possimus laudantium tempora deleniti laboriosam.</p>
+
+    <ul>
+        <li><a href="paginas_extras/pagina01.html" target="iframe">Primeira página</a></li>
+        <li><a href="paginas_extras/pagina02.html" target="iframe">Segunda página</a></li>
+        <li><a href="paginas_extras/pagina03.html" target="iframe">Terceira página</a></li>
+    </ul>
+
+    <iframe srcdoc="<h1>Escolha alguma das opções acima</h1>" frameborder="0" name="iframe">
+        Seu navegador não é compatível com este recurso.
+    </iframe>
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus veritatis sint nemo similique, velit commodi hic, voluptatem fugiat officiis atque molestias quasi perferendis illum amet accusamus, eaque delectus assumenda! Veritatis.</p>
+</body>
+</html>
